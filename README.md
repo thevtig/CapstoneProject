@@ -28,7 +28,7 @@ The project is powered by Python, with key libraries such as `yfinance` for data
 
 Complete instructions for setting up the environment and executing the code are provided, allowing users to replicate the study's outcomes and delve into the performance and risk assessment of randomized stock portfolios.
 
-## Results of the Analysis
+## Results of the Analysis for Portfolio Construction and Risk Assessment
 
 Our simulation yielded intriguing insights, showcasing the variability and potential of diversified portfolios. Across the simulation runs, we noticed:
 
@@ -36,16 +36,18 @@ Our simulation yielded intriguing insights, showcasing the variability and poten
 
 - **Annual Returns:** The annual returns ranged dramatically, with portfolios containing NVDA, ROKU, and INTC leading with high returns, suggesting that random selection can occasionally construct portfolios that significantly outperform the market.
 
-## ARIMA Model Summary and Forecast for INTC
-The ARIMA model summary for INTC revealed an AR coefficient of 0.1224 and an MA coefficient of -0.9995, hinting at the importance of the previous term and the error term in predicting future values. The model's adequacy is further evidenced by a low p-value for the MA term and a satisfactory Ljung-Box test result, suggesting that the residuals are independently distributed. Heteroskedasticity seems to be under control, as indicated by the H statistic, and the forecast for the next five periods shows a slight upward trend in the predicted mean.
-
-### Detailed Insights from Specific Simulation Runs
+- ### Detailed Insights from Specific Simulation Runs
 
 - **Run 1 Insights:** The portfolio risk ranged from approximately 22.59% for a portfolio with stocks like HD and GOOGL to 33.85% for a portfolio including NFLX and INTC, highlighting the diversity in risk due to different stock compositions.
 
 - **Run 2 Highlights:** The returns analysis for Run 2 emphasized the stark contrasts in portfolio performance, with some like GOOGL and ADBE bringing in an average annual return of around 45.72%, significantly outpacing others such as PEP and V, which posted close to 11.19%.
 
 - **Run 3 and Beyond:** Subsequent runs continued to underscore the relationship between selected stocks and portfolio outcomes. For instance, portfolios with a tech-heavy composition tended to show both higher risk and higher potential returns.
+
+## ARIMA Model Summary and Forecast for INTC
+The ARIMA model summary for INTC revealed an AR coefficient of 0.1224 and an MA coefficient of -0.9995, hinting at the importance of the previous term and the error term in predicting future values. The model's adequacy is further evidenced by a low p-value for the MA term and a satisfactory Ljung-Box test result, suggesting that the residuals are independently distributed. Heteroskedasticity seems to be under control, as indicated by the H statistic, and the forecast for the next five periods shows a slight upward trend in the predicted mean.
+
+
 
 ## Conclusion
 
