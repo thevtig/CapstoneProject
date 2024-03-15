@@ -36,7 +36,8 @@ Our simulation yielded intriguing insights, showcasing the variability and poten
 
 - **Annual Returns:** The annual returns ranged dramatically, with portfolios containing NVDA, ROKU, and INTC leading with high returns, suggesting that random selection can occasionally construct portfolios that significantly outperform the market.
 
-- **ARIMA Model Insights:The ARIMA model provided future price movement forecasts for individual stocks like INTC, where the model suggested slight positive returns in the short term, reinforcing the stochastic nature of stock price movements.
+## ARIMA Model Summary and Forecast for INTC
+The ARIMA model summary for INTC revealed an AR coefficient of 0.1224 and an MA coefficient of -0.9995, hinting at the importance of the previous term and the error term in predicting future values. The model's adequacy is further evidenced by a low p-value for the MA term and a satisfactory Ljung-Box test result, suggesting that the residuals are independently distributed. Heteroskedasticity seems to be under control, as indicated by the H statistic, and the forecast for the next five periods shows a slight upward trend in the predicted mean.
 
 ### Detailed Insights from Specific Simulation Runs
 
